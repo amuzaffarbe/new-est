@@ -1,0 +1,88 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+}
+
+.login-bg {
+  background: #28223f;
+}
+
+.h-100 {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.me-3 {
+  margin-right: 13px !important;
+}
+
+.border-50 {
+  border-radius: 50%;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 10px 5px #ccc;
+  background: #ccc;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.active {
+  background: rgba(0, 0, 0, 0.43);
+  color: white;
+}
+
+.profile-info {
+  width: 500px !important;
+}
+
+.d-flex {
+  display: flex; 
+  width: 300px;
+  margin-top: 5px;
+  justify-content: space-around;
+}
+
+.navigate:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.accaunt {
+  width: 250px;
+}
+
+.white {
+  color: black;
+}
+
+.edit {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  background: rgb(250, 250, 250);
+  right: 3%;
+  border-radius: 3px;
+  margin-top: 5px;
+  font-weight: 700;
+  padding: 8px 15px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.edit:hover {
+  text-decoration: underline;
+}
+
+.card-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 500px;
+}
